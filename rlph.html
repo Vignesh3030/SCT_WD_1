@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawasaki Ninja Bikes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/ninja_logo.jpg" alt="Ninja Bikes Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bikes">Bikes</a></li>
+                <li><a href="#accessories">Accessories</a></li>
+                <li><a href="#dealers">Dealers</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Ninja Bikes</h1>
+            <p>Unleash the Ninja within.</p>
+            <button onclick="location.href='#bikes'">Explore Bikes</button>
+            <button onclick="location.href='#dealers'">Find a Dealer</button>
+        </div>
+    </section>
+
+    <section id="bikes" class="section">
+        <h1>Bikes</h1>
+        <div class="bike-gallery">
+            <div class="bike-item">
+                <img src="images/bike1.jpg" alt="Ninja Bike 1">
+                <h3>Ninja ZX-10R</h3>
+                <p>Powerful and agile, designed for speed enthusiasts.</p>
+            </div>
+            <div class="bike-item">
+                <img src="images/bike2.jpg" alt="Ninja Bike 2">
+                <h3>Ninja 650</h3>
+                <p>Perfect blend of performance and style.</p>
+            </div>
+            <div class="bike-item">
+                <img src="images/bike3.jpg" alt="Ninja Bike 3">
+                <h3>Ninja 400</h3>
+                <p>Compact and nimble, perfect for city rides.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="accessories" class="section">
+        <h1>Accessories</h1>
+        <div class="accessories-gallery">
+            <div class="accessory-item">
+                <img src="images/helmet.jpg" alt="Helmet">
+                <h3>Helmet</h3>
+                <p>Safety and style combined.</p>
+            </div>
+            <div class="accessory-item">
+                <img src="images/jacket.jpg" alt="Jacket">
+                <h3>Riding Jacket</h3>
+                <p>Comfortable and protective gear.</p>
+            </div>
+            <div class="accessory-item">
+                <img src="images/gloves.jpg" alt="Gloves">
+                <h3>Riding Gloves</h3>
+                <p>Enhanced grip and protection.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dealers" class="section">
+        <h1>Dealers</h1>
+        <p>Use our interactive map to find an authorized Ninja Bikes dealer near you.</p>
+        <div id="map">
+            <!-- Google Maps embed or similar -->
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h1>About Us</h1>
+        <p>Learn about our journey, mission, and the team behind Ninja Bikes.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h1>Contact</h1>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
